@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("edae2bcdd584fa98");
-var ErrorOverlay = require("6bbd143e2fc37597");
+var Refresh = require("a7ece4982016bde7");
+var ErrorOverlay = require("ed5a00c610a0fb86");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,7 +163,7 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"edae2bcdd584fa98":"786KC","6bbd143e2fc37597":"1dldy"}],"05c99":[function(require,module,exports) {
+},{"a7ece4982016bde7":"786KC","ed5a00c610a0fb86":"1dldy"}],"05c99":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -562,114 +562,40 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _s = $RefreshSig$();
-const Section = ({ title , description , isVisible , setIsVisible  })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "border border-black p-2 m-2",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                className: "font-bold text-xl",
-                children: title
-            }, void 0, false, {
-                fileName: "src/components/Instamart.js",
-                lineNumber: 9,
-                columnNumber: 7
-            }, undefined),
-            isVisible ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: ()=>setIsVisible(false),
-                className: "cursor-pointer underline",
-                children: "Hide"
-            }, void 0, false, {
-                fileName: "src/components/Instamart.js",
-                lineNumber: 10,
-                columnNumber: 20
-            }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: ()=>setIsVisible(true),
-                className: "cursor-pointer underline",
-                children: "Show"
-            }, void 0, false, {
-                fileName: "src/components/Instamart.js",
-                lineNumber: 12,
-                columnNumber: 21
-            }, undefined),
-            isVisible && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: description
-            }, void 0, false, {
-                fileName: "src/components/Instamart.js",
-                lineNumber: 16,
-                columnNumber: 21
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Instamart.js",
-        lineNumber: 8,
-        columnNumber: 10
-    }, undefined);
-};
-_c = Section;
 const Instamart = ()=>{
-    _s();
-    const [visibleSection, setIsVisibleSection] = (0, _react.useState)("team");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "text-3xl p-2 m-2 font-bold",
-                children: " Instamart"
+                children: "Instamart"
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
-                lineNumber: 22,
+                lineNumber: 3,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
-                title: "About Instamart",
-                description: "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.",
-                isVisible: visibleSection === "about",
-                setIsVisible: ()=>setIsVisibleSection("about")
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "100s of componnets inside it"
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
-                lineNumber: 23,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
-                title: "Team Instamart",
-                description: "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.",
-                isVisible: visibleSection === "team",
-                setIsVisible: ()=>setIsVisibleSection("team")
-            }, void 0, false, {
-                fileName: "src/components/Instamart.js",
-                lineNumber: 25,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
-                title: "Careers ",
-                description: "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.",
-                isVisible: visibleSection === "career",
-                setIsVisible: ()=>setIsVisibleSection("career")
-            }, void 0, false, {
-                fileName: "src/components/Instamart.js",
-                lineNumber: 27,
+                lineNumber: 4,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Instamart.js",
-        lineNumber: 21,
+        lineNumber: 2,
         columnNumber: 10
     }, undefined);
 };
-_s(Instamart, "PVQcHi8R2wjRGT484uwGiGuysck=");
-_c1 = Instamart;
+_c = Instamart;
 exports.default = Instamart;
-var _c, _c1;
-$RefreshReg$(_c, "Section");
-$RefreshReg$(_c1, "Instamart");
+var _c;
+$RefreshReg$(_c, "Instamart");
 
   $parcel$ReactRefreshHelpers$8238.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","05c99"], null, "parcelRequire59fc")
+},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["1xC6H","05c99"], null, "parcelRequire59fc")
 
 //# sourceMappingURL=Instamart.0762395e.js.map

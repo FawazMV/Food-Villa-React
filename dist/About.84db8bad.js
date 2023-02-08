@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("edae2bcdd584fa98");
-var ErrorOverlay = require("6bbd143e2fc37597");
+var Refresh = require("a7ece4982016bde7");
+var ErrorOverlay = require("ed5a00c610a0fb86");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,7 +163,7 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"edae2bcdd584fa98":"786KC","6bbd143e2fc37597":"1dldy"}],"2b0Mp":[function(require,module,exports) {
+},{"a7ece4982016bde7":"786KC","ed5a00c610a0fb86":"1dldy"}],"2b0Mp":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -568,8 +568,6 @@ var _profileDefault = parcelHelpers.interopDefault(_profile);
 var _profileClass = require("./ProfileClass");
 var _profileClassDefault = parcelHelpers.interopDefault(_profileClass);
 var _react = require("react");
-var _userContext = require("../utils/UserContext");
-var _userContextDefault = parcelHelpers.interopDefault(_userContext);
 class About extends (0, _react.Component) {
     constructor(props){
         super(props);
@@ -587,43 +585,25 @@ class About extends (0, _react.Component) {
                     children: "About Us Page"
                 }, void 0, false, {
                     fileName: "src/components/About.js",
-                    lineNumber: 20,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _userContextDefault.default).Consumer, {
-                    children: ({ user  })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                            className: "font-bold text-xl p-10",
-                            children: [
-                                user.name,
-                                "- ",
-                                user.email
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 25,
-                            columnNumber: 15
-                        }, this)
-                }, void 0, false, {
-                    fileName: "src/components/About.js",
-                    lineNumber: 22,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "This is the Namaste React Live Course Chapter 07 - Finding the Path \uD83D\uDE80"
                 }, void 0, false, {
                     fileName: "src/components/About.js",
-                    lineNumber: 30,
+                    lineNumber: 20,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _profileClassDefault.default), {}, void 0, false, {
                     fileName: "src/components/About.js",
-                    lineNumber: 33,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/About.js",
-            lineNumber: 19,
+            lineNumber: 18,
             columnNumber: 12
         }, this);
     }
@@ -651,7 +631,7 @@ exports.default = About; /**
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./Profile":"h0rtF","./ProfileClass":"aeEz8","react":"21dqq","../utils/UserContext":"c5vgB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aeEz8":[function(require,module,exports) {
+},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./Profile":"h0rtF","./ProfileClass":"aeEz8","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aeEz8":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$1beb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
